@@ -1,0 +1,13 @@
+begin
+	input A
+	input B
+	input C
+if (A<B) and (B<C)
+then
+	print «Yes A<B<C»
+else if (A>B) and (B>C)
+	print «Yes A>B>C»
+else
+	print «No»
+end
+	
